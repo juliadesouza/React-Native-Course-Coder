@@ -9,7 +9,7 @@ const Stack = createNativeStackNavigator()
 
 export default props => {
     return (
-        <NavigationContainer>
+        <NavigationContainer theme={{ colors: { card: '#CCE3CB' } }}>
             <Stack.Navigator initialRouteName="UserList">
                 <Stack.Screen
                     name="UserList"
