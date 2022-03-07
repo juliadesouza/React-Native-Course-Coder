@@ -19,6 +19,7 @@ export default class App extends React.Component {
         <Field opened />
         <Field opened nearMines={1} />
         <Field mined opened exploded />
+        <Field flagged />
       </SafeAreaView >
     );
   }
