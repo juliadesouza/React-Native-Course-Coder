@@ -7,7 +7,6 @@ import commonStyles from '../commonStyles'
 import Task from '../components/Task'
 import Icon from 'react-native-vector-icons/FontAwesome'
 import AddTask from './AddTask'
-
 Icon.loadFont()
 
 export default class TaskList extends Component {
